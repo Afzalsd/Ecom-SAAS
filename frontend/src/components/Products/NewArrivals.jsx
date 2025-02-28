@@ -136,11 +136,7 @@ const NewArrivals = () => {
             setCanScrollRight(container.scrollLeft < container.scrollWidth - container.clientWidth - 1);
 
         }
-        console.log({
-            scrollLeft: container.scrollLeft,
-            clientWidth: container.clientWidth,
-            containerScrollwidth: container.scrollWidth 
-        })
+        
     }
 
     //update scroll buttons
