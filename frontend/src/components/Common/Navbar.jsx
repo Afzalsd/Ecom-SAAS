@@ -27,7 +27,7 @@ const Navbar = () => {
 
             {/* Center - Navigation */}
             <div className="hidden md:flex space-x-6">
-                <Link to="/" className="text-gray-700 hover:text-black text-sm font-medium uppercase">
+                <Link to="/collections/all" className="text-gray-700 hover:text-black text-sm font-medium uppercase">
                     Men
                 </Link>
                 <Link to="/" className="text-gray-700 hover:text-black text-sm font-medium uppercase">
@@ -42,6 +42,7 @@ const Navbar = () => {
             </div>
             {/* Right - Icons */}
             <div className="flex items-center space-x-4">
+            <Link to="/admin" className="block bg-black px-2 rounded text-sm text-white">Admin</Link>
                 <Link to="/profile" className="hover:text-black">
                     <HiOutlineUser className="h-6 w-6 text-grey-700" />
                 </Link>
